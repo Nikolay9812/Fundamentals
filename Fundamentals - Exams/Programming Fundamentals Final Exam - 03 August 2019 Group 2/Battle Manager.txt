@@ -1,0 +1,87 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
+
+namespace Demo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Dictionary<string, List<int>> records = new Dictionary<string, List<int>>();
+
+            string command;
+
+            while ((command = Console.ReadLine()) != "Results")
+            {
+                string[] element = command.Split(":");
+
+                if (element[0] == "Add")
+                {
+                    string personName = element[1];
+                    int health = int.Parse(element[2]);
+                    int energy = int.Parse(element[3]);
+
+                    if (!records.ContainsKey(personName))
+                    {
+                        records.Add(personName, new List<int>() { 0, 0 });
+                        records[personName][0] += health;
+                        records[personName][1] += energy;
+                    }
+                    else
+                    {
+                        records[personName][0] += health;
+                    }
+
+                }
+                else if (element[0] == "Attack")
+                {
+                    string attackerName = element[1];
+                    string defenderName = element[2];
+                    int damage = int.Parse(element[3]);
+
+                    if (records.ContainsKey(attackerName) && records.ContainsKey(defenderName))
+                    {
+                        records[defenderName][0] -= damage;
+
+                        if (records[defenderName][0] <= 0)
+                        {
+                            Console.WriteLine($"{defenderName} was disqualified!");
+                            records.Remove(defenderName);
+                        }
+
+                        records[attackerName][1]--;
+
+                        if (records[attackerName][1] <= 0)
+                        {
+                            Console.WriteLine($"{attackerName} was disqualified!");
+                            records.Remove(attackerName);
+                        }
+                    }
+                }
+                else if (element[0] == "Delete")
+                {
+                    string username = element[1];
+
+                    if (records.ContainsKey(username))
+                    {
+                        records.Remove(username);
+                    }
+
+                    if (username == "All")
+                    {
+                        records.Clear();
+                    }
+                }
+            }
+
+            Console.WriteLine($"People count: {records.Count}");
+
+            foreach (var item in records.OrderByDescending(v => v.Value[0]).ThenBy(k => k.Key))
+            {
+                Console.WriteLine($"{item.Key} - {item.Value[0]} - {item.Value[1]}");
+            }
+        }
+    }
+}

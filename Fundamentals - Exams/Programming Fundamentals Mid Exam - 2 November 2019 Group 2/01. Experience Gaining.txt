@@ -1,0 +1,55 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
+
+namespace Demo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double exp = double.Parse(Console.ReadLine());
+            int n = int.Parse(Console.ReadLine());
+
+            double currentExp = 0;
+            int battleCount = 0; ;
+            bool isDone = false;
+
+            for (int i = 1; i <= n; i++)
+            {
+                double experience = double.Parse(Console.ReadLine());
+                battleCount++;
+
+                if (i % 3 == 0)
+                {
+                    currentExp += experience * 1.15;
+                }
+                else if (i % 5 == 0)
+                {
+                    currentExp += experience * 0.9;
+                }
+                else
+                {
+                    currentExp += experience;
+                }
+
+                if (currentExp >= exp)
+                {
+                    isDone = true;
+                    break;
+                }
+            }
+
+            if (isDone)
+            {
+                Console.WriteLine($"Player successfully collected his needed experience for {battleCount} battles.");
+            }
+            else
+            {
+                Console.WriteLine($"Player was not able to collect the needed experience, {exp - currentExp:f2} more needed.");
+            }
+
+        }
+    }
+}

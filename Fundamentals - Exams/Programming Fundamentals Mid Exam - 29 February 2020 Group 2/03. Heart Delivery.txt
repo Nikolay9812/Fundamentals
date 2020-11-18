@@ -1,0 +1,70 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace Demo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            List<int> neighborhood = Console.ReadLine().Split("@").Select(int.Parse).ToList();
+
+            string command = string.Empty;
+
+            int houseIndex = 0;
+
+            while ((command = Console.ReadLine()) != "Love!")
+            {
+                string[] element = command.Split();
+
+                int length = int.Parse(element[1]);
+
+                houseIndex += length;
+
+                if (houseIndex >= neighborhood.Count) { houseIndex = 0; }
+
+                if (neighborhood[houseIndex] != 0)
+                {
+                    neighborhood[houseIndex] -= 2;
+
+                    if (neighborhood[houseIndex] == 0)
+                    {
+                        Console.WriteLine($"Place {houseIndex} has Valentine's day.");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine($"Place {houseIndex} already had Valentine's day.");
+                }
+            }
+
+            int lastPositionIndex = houseIndex;
+
+            Console.WriteLine($"Cupid's last position was {lastPositionIndex}.");
+
+            bool isSuccessful = true;
+
+            foreach (int house in neighborhood)
+            {
+                if (house != 0) { isSuccessful = false; break; }
+            }
+
+            int houseCount = 0;
+
+            foreach(int house in neighborhood)
+            {
+                if (house != 0) { houseCount++; }
+            }
+
+            if (isSuccessful)
+            {
+                Console.WriteLine("Mission was successful.");
+            }
+            else
+            {
+                Console.WriteLine($"Cupid has failed {houseCount} places.");
+            }
+        }
+    }
+}

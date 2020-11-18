@@ -1,0 +1,56 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace Demo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            List<string> inventory = Console.ReadLine().Split(", ").ToList();
+
+            string command = string.Empty;
+
+            while ((command = Console.ReadLine()) != "Craft!")
+            {
+                string[] element = command.Split(" - ");
+                string item = element[1];
+
+                switch (element[0])
+                {
+                    case "Collect":
+                        if (!inventory.Contains(item))
+                        {
+                            inventory.Add(item);
+                        }
+                        break;
+                    case "Drop":
+                        inventory.Remove(item);
+                        break;
+                    case "Combine Items":
+                        string[] currElement = item.Split(":");
+                        string oldItem = currElement[0];
+                        string newItem = currElement[1];
+                        int index = inventory.IndexOf(oldItem);
+                        if (index >= 0)
+                        {
+                            inventory.Insert(index + 1, newItem);
+                        }
+                        break;
+                    case "Renew":
+                        int currIndex = inventory.IndexOf(item);
+                        if (currIndex >= 0)
+                        {
+                            string temp = inventory[currIndex];
+                            inventory.Remove(temp);
+                            inventory.Add(temp);
+                        }
+                        break;
+                }
+            }
+
+            Console.WriteLine(string.Join(", ", inventory));
+        }
+    }
+}

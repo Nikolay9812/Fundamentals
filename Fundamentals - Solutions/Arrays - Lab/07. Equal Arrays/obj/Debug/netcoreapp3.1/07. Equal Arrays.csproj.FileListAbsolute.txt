@@ -1,0 +1,3 @@
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Arrays - Lab\07. Equal Arrays\obj\Debug\netcoreapp3.1\07. Equal Arrays.csprojAssemblyReference.cache
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Arrays - Lab\07. Equal Arrays\obj\Debug\netcoreapp3.1\07. Equal Arrays.AssemblyInfoInputs.cache
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Arrays - Lab\07. Equal Arrays\obj\Debug\netcoreapp3.1\07. Equal Arrays.AssemblyInfo.cs

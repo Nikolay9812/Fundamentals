@@ -1,0 +1,11 @@
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Methods - Lab\08. Math Power\bin\Debug\netcoreapp3.1\08. Math Power.exe
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Methods - Lab\08. Math Power\bin\Debug\netcoreapp3.1\08. Math Power.deps.json
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Methods - Lab\08. Math Power\bin\Debug\netcoreapp3.1\08. Math Power.runtimeconfig.json
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Methods - Lab\08. Math Power\bin\Debug\netcoreapp3.1\08. Math Power.runtimeconfig.dev.json
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Methods - Lab\08. Math Power\bin\Debug\netcoreapp3.1\08. Math Power.dll
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Methods - Lab\08. Math Power\bin\Debug\netcoreapp3.1\08. Math Power.pdb
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Methods - Lab\08. Math Power\obj\Debug\netcoreapp3.1\08. Math Power.csprojAssemblyReference.cache
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Methods - Lab\08. Math Power\obj\Debug\netcoreapp3.1\08. Math Power.AssemblyInfoInputs.cache
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Methods - Lab\08. Math Power\obj\Debug\netcoreapp3.1\08. Math Power.AssemblyInfo.cs
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Methods - Lab\08. Math Power\obj\Debug\netcoreapp3.1\08. Math Power.dll
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Methods - Lab\08. Math Power\obj\Debug\netcoreapp3.1\08. Math Power.pdb

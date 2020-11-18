@@ -1,0 +1,10 @@
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - More Exercise\06. Balanced Brackets\bin\Debug\netcoreapp3.1\06. Balanced Brackets.exe
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - More Exercise\06. Balanced Brackets\bin\Debug\netcoreapp3.1\06. Balanced Brackets.deps.json
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - More Exercise\06. Balanced Brackets\bin\Debug\netcoreapp3.1\06. Balanced Brackets.runtimeconfig.json
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - More Exercise\06. Balanced Brackets\bin\Debug\netcoreapp3.1\06. Balanced Brackets.runtimeconfig.dev.json
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - More Exercise\06. Balanced Brackets\bin\Debug\netcoreapp3.1\06. Balanced Brackets.dll
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - More Exercise\06. Balanced Brackets\bin\Debug\netcoreapp3.1\06. Balanced Brackets.pdb
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - More Exercise\06. Balanced Brackets\obj\Debug\netcoreapp3.1\06. Balanced Brackets.AssemblyInfoInputs.cache
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - More Exercise\06. Balanced Brackets\obj\Debug\netcoreapp3.1\06. Balanced Brackets.AssemblyInfo.cs
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - More Exercise\06. Balanced Brackets\obj\Debug\netcoreapp3.1\06. Balanced Brackets.dll
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - More Exercise\06. Balanced Brackets\obj\Debug\netcoreapp3.1\06. Balanced Brackets.pdb

@@ -1,0 +1,11 @@
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Associative Arrays - Lab\02. Odd Occurrences\bin\Debug\netcoreapp3.1\02. Odd Occurrences.exe
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Associative Arrays - Lab\02. Odd Occurrences\bin\Debug\netcoreapp3.1\02. Odd Occurrences.deps.json
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Associative Arrays - Lab\02. Odd Occurrences\bin\Debug\netcoreapp3.1\02. Odd Occurrences.runtimeconfig.json
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Associative Arrays - Lab\02. Odd Occurrences\bin\Debug\netcoreapp3.1\02. Odd Occurrences.runtimeconfig.dev.json
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Associative Arrays - Lab\02. Odd Occurrences\bin\Debug\netcoreapp3.1\02. Odd Occurrences.dll
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Associative Arrays - Lab\02. Odd Occurrences\bin\Debug\netcoreapp3.1\02. Odd Occurrences.pdb
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Associative Arrays - Lab\02. Odd Occurrences\obj\Debug\netcoreapp3.1\02. Odd Occurrences.csprojAssemblyReference.cache
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Associative Arrays - Lab\02. Odd Occurrences\obj\Debug\netcoreapp3.1\02. Odd Occurrences.AssemblyInfoInputs.cache
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Associative Arrays - Lab\02. Odd Occurrences\obj\Debug\netcoreapp3.1\02. Odd Occurrences.AssemblyInfo.cs
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Associative Arrays - Lab\02. Odd Occurrences\obj\Debug\netcoreapp3.1\02. Odd Occurrences.dll
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Associative Arrays - Lab\02. Odd Occurrences\obj\Debug\netcoreapp3.1\02. Odd Occurrences.pdb

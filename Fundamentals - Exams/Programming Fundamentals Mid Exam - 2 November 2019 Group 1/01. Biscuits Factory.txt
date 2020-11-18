@@ -1,0 +1,48 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Text.RegularExpressions;
+
+namespace Demo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int amountOfBiscuitsForDay = int.Parse(Console.ReadLine());
+            int countOfTheWorkers = int.Parse(Console.ReadLine());
+            int amountOfBiscuitsForMonth = int.Parse(Console.ReadLine());
+
+            double countBiscuits = 0;
+
+            for (int i = 0; i < 30; i++)
+            {
+                if (i % 3 == 0)
+                {
+                    countBiscuits += Math.Floor(countOfTheWorkers * amountOfBiscuitsForDay * 0.75);
+                }
+                else
+                {
+
+                    countBiscuits += amountOfBiscuitsForDay * countOfTheWorkers;
+                }
+            }
+
+            Console.WriteLine($"You have produced {countBiscuits} biscuits for the past month.");
+
+            if (countBiscuits >= amountOfBiscuitsForMonth)
+            {
+                double difference = countBiscuits - amountOfBiscuitsForMonth;
+
+                Console.WriteLine($"You produce {difference / amountOfBiscuitsForMonth * 100:f2} percent more biscuits.");
+            }
+            else
+            {
+                double difference = amountOfBiscuitsForMonth - countBiscuits;
+
+                Console.WriteLine($"You produce {difference / amountOfBiscuitsForMonth * 100:f2} percent less biscuits.");
+            }
+        }
+    }
+}

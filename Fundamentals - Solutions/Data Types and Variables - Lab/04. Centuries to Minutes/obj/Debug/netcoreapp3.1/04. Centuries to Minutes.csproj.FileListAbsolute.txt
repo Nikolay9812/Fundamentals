@@ -1,0 +1,11 @@
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - Lab\04. Centuries to Minutes\bin\Debug\netcoreapp3.1\04. Centuries to Minutes.exe
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - Lab\04. Centuries to Minutes\bin\Debug\netcoreapp3.1\04. Centuries to Minutes.deps.json
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - Lab\04. Centuries to Minutes\bin\Debug\netcoreapp3.1\04. Centuries to Minutes.runtimeconfig.json
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - Lab\04. Centuries to Minutes\bin\Debug\netcoreapp3.1\04. Centuries to Minutes.runtimeconfig.dev.json
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - Lab\04. Centuries to Minutes\bin\Debug\netcoreapp3.1\04. Centuries to Minutes.dll
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - Lab\04. Centuries to Minutes\bin\Debug\netcoreapp3.1\04. Centuries to Minutes.pdb
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - Lab\04. Centuries to Minutes\obj\Debug\netcoreapp3.1\04. Centuries to Minutes.csprojAssemblyReference.cache
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - Lab\04. Centuries to Minutes\obj\Debug\netcoreapp3.1\04. Centuries to Minutes.AssemblyInfoInputs.cache
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - Lab\04. Centuries to Minutes\obj\Debug\netcoreapp3.1\04. Centuries to Minutes.AssemblyInfo.cs
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - Lab\04. Centuries to Minutes\obj\Debug\netcoreapp3.1\04. Centuries to Minutes.dll
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - Lab\04. Centuries to Minutes\obj\Debug\netcoreapp3.1\04. Centuries to Minutes.pdb

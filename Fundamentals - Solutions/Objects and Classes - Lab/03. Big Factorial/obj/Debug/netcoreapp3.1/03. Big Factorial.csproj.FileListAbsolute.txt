@@ -1,0 +1,11 @@
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Objects and Classes - Lab\03. Big Factorial\bin\Debug\netcoreapp3.1\03. Big Factorial.exe
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Objects and Classes - Lab\03. Big Factorial\bin\Debug\netcoreapp3.1\03. Big Factorial.deps.json
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Objects and Classes - Lab\03. Big Factorial\bin\Debug\netcoreapp3.1\03. Big Factorial.runtimeconfig.json
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Objects and Classes - Lab\03. Big Factorial\bin\Debug\netcoreapp3.1\03. Big Factorial.runtimeconfig.dev.json
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Objects and Classes - Lab\03. Big Factorial\bin\Debug\netcoreapp3.1\03. Big Factorial.dll
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Objects and Classes - Lab\03. Big Factorial\bin\Debug\netcoreapp3.1\03. Big Factorial.pdb
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Objects and Classes - Lab\03. Big Factorial\obj\Debug\netcoreapp3.1\03. Big Factorial.csprojAssemblyReference.cache
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Objects and Classes - Lab\03. Big Factorial\obj\Debug\netcoreapp3.1\03. Big Factorial.AssemblyInfoInputs.cache
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Objects and Classes - Lab\03. Big Factorial\obj\Debug\netcoreapp3.1\03. Big Factorial.AssemblyInfo.cs
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Objects and Classes - Lab\03. Big Factorial\obj\Debug\netcoreapp3.1\03. Big Factorial.dll
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Objects and Classes - Lab\03. Big Factorial\obj\Debug\netcoreapp3.1\03. Big Factorial.pdb

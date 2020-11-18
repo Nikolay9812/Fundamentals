@@ -1,0 +1,80 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace Demo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            List<int> list = Console.ReadLine().Split().Select(int.Parse).ToList();
+
+            string command = string.Empty;
+
+            int count = 0;
+
+            while ((command = Console.ReadLine()) != "End")
+            {
+                string[] element = command.Split();
+                int index = int.Parse(element[1]);
+
+                switch (element[0])
+                {
+                    case "Shoot":
+                        int power = int.Parse(element[2]);
+                        for (int i = 0; i < list.Count; i++)
+                        {
+                            if (index >= 0 && index < list.Count)
+                            {
+                                if (list[i] == list[index])
+                                {
+                                    list[i] -= power;
+                                }
+                                if (list[i] <= 0)
+                                {
+                                    list.RemoveAt(index);
+                                }
+                            }
+                        }
+                        break;
+                    case "Add":
+                        int value = int.Parse(element[2]);
+                        if (index >= 0 && index < list.Count)
+                        {
+                            list.Insert(index, value);
+                        }
+                        else
+                        {
+                            Console.WriteLine("Invalid placement!");
+                        }
+                        break;
+                    case "Strike":
+                        int radius = int.Parse(element[2]);
+
+                        int left = index - radius;
+                        int right = index + radius;
+                        if (left >= 0 && right < list.Count)
+                        {
+                            if (left < 0)
+                            {
+                                left = 0;
+                            }
+                            if (right > list.Count - 1)
+                            {
+                                right = list.Count - 1;
+                            }
+                            list.RemoveRange(left, right - left + 1);
+                        }
+                        else
+                        {
+                            Console.WriteLine("Strike missed!");
+                        }
+                        break;
+                }
+            }
+
+            Console.WriteLine(string.Join("|", list));
+        }
+    }
+}

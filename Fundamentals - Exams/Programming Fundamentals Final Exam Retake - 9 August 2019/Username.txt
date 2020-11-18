@@ -1,0 +1,82 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
+
+namespace Demo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string username = Console.ReadLine();
+
+            string command;
+
+            while ((command = Console.ReadLine()) != "Sign up")
+            {
+                string[] element = command.Split();
+
+                if (element[0] == "Case")
+                {
+                    if (element[1] == "lower")
+                    {
+                        username = username.ToLower();
+                        Console.WriteLine(username);
+                    }
+                    else if (element[1] == "upper")
+                    {
+                        username = username.ToUpper();
+                        Console.WriteLine(username);
+                    }
+                }
+                else if (element[0] == "Reverse")
+                {
+                    int startIndex = int.Parse(element[1]);
+                    int endIndex = int.Parse(element[2]);
+
+                    if (startIndex >= 0 && startIndex < username.Length && endIndex > startIndex && endIndex < username.Length)
+                    {
+                        string substring = username.Substring(startIndex, (endIndex - startIndex) + 1);
+
+                        Console.WriteLine(string.Join("", substring.Reverse()));
+                    }
+                }
+                else if (element[0] == "Cut")
+                {
+                    string substring = element[1];
+
+                    if (username.Contains(substring))
+                    {
+                        username = username.Remove(username.IndexOf(substring), substring.Length);
+                        Console.WriteLine(username);
+                    }
+                    else
+                    {
+                        Console.WriteLine($"The word {username} doesn't contain {substring}.");
+                    }
+                }
+                else if (element[0] == "Replace")
+                {
+                    char letter = char.Parse(element[1]);
+
+                    username = username.Replace(letter, '*');
+                    Console.WriteLine(username);
+                }
+                else if (element[0] == "Check")
+                {
+                    char letter = char.Parse(element[1]);
+
+                    if (username.Contains(letter))
+                    {
+                        Console.WriteLine("Valid");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Your username must contain {letter}.");
+                    }
+                }
+            }
+        }
+    }
+}

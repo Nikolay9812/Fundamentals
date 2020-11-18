@@ -1,0 +1,95 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
+
+namespace Demo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Dictionary<string, List<int>> dataBase = new Dictionary<string, List<int>>();
+
+            string firstCommand;
+
+            while ((firstCommand = Console.ReadLine()) != "Sail")
+            {
+                string[] element = firstCommand.Split("||");
+                string town = element[0];
+                int people = int.Parse(element[1]);
+                int gold = int.Parse(element[2]);
+
+                if (!dataBase.ContainsKey(town))
+                {
+                    dataBase.Add(town, new List<int>());
+                    dataBase[town].Add(people);
+                    dataBase[town].Add(gold);
+                }
+                else
+                {
+                    dataBase[town][0] += people;
+                    dataBase[town][1] += gold;
+                }
+            }
+
+            string secondCommand;
+
+            while ((secondCommand = Console.ReadLine()) != "End")
+            {
+                string[] element = secondCommand.Split("=>");
+
+                if (element[0] == "Plunder")
+                {
+                    string town = element[1];
+                    int people = int.Parse(element[2]);
+                    int gold = int.Parse(element[3]);
+
+
+
+                    if (dataBase[town][0] > 0 || dataBase[town][1] > 0)
+                    {
+                        dataBase[town][1] -= gold;
+                        dataBase[town][0] -= people;
+                        Console.WriteLine($"{town} plundered! {gold} gold stolen, {people} citizens killed.");
+                    }
+                    if (dataBase[town][0] <= 0 || dataBase[town][1] <= 0)
+                    {
+                        Console.WriteLine($"{town} has been wiped off the map!");
+                        dataBase.Remove(town);
+                    }
+
+                }
+                else if (element[0] == "Prosper")
+                {
+                    string town = element[1];
+                    int gold = int.Parse(element[2]);
+
+                    if (gold < 0)
+                    {
+                        Console.WriteLine("Gold added cannot be a negative number!");
+                    }
+                    else
+                    {
+                        dataBase[town][1] += gold;
+                        Console.WriteLine($"{gold} gold added to the city treasury. {town} now has {dataBase[town][1]} gold.");
+                    }
+                }
+            }
+
+            Console.WriteLine($"Ahoy, Captain! There are {dataBase.Count} wealthy settlements to go to:");
+
+            if (dataBase.Count > 0)
+            {
+                foreach (var kvp in dataBase.OrderByDescending(v => v.Value[1]).ThenBy(k => k.Key))
+                {
+                    Console.WriteLine($"{kvp.Key} -> Population: {kvp.Value[0]} citizens, Gold: {kvp.Value[1]} kg");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Ahoy, Captain! All targets have been plundered and destroyed!");
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Programming Fundamentals Final Exam - 09 August 2020\ConsoleApp2\bin\Debug\netcoreapp3.1\02. Destination Mapper.exe
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Programming Fundamentals Final Exam - 09 August 2020\ConsoleApp2\bin\Debug\netcoreapp3.1\02. Destination Mapper.deps.json
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Programming Fundamentals Final Exam - 09 August 2020\ConsoleApp2\bin\Debug\netcoreapp3.1\02. Destination Mapper.runtimeconfig.json
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Programming Fundamentals Final Exam - 09 August 2020\ConsoleApp2\bin\Debug\netcoreapp3.1\02. Destination Mapper.runtimeconfig.dev.json
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Programming Fundamentals Final Exam - 09 August 2020\ConsoleApp2\bin\Debug\netcoreapp3.1\02. Destination Mapper.dll
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Programming Fundamentals Final Exam - 09 August 2020\ConsoleApp2\bin\Debug\netcoreapp3.1\02. Destination Mapper.pdb
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Programming Fundamentals Final Exam - 09 August 2020\ConsoleApp2\obj\Debug\netcoreapp3.1\02. Destination Mapper.csprojAssemblyReference.cache
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Programming Fundamentals Final Exam - 09 August 2020\ConsoleApp2\obj\Debug\netcoreapp3.1\02. Destination Mapper.AssemblyInfoInputs.cache
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Programming Fundamentals Final Exam - 09 August 2020\ConsoleApp2\obj\Debug\netcoreapp3.1\02. Destination Mapper.AssemblyInfo.cs
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Programming Fundamentals Final Exam - 09 August 2020\ConsoleApp2\obj\Debug\netcoreapp3.1\02. Destination Mapper.dll
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Programming Fundamentals Final Exam - 09 August 2020\ConsoleApp2\obj\Debug\netcoreapp3.1\02. Destination Mapper.pdb

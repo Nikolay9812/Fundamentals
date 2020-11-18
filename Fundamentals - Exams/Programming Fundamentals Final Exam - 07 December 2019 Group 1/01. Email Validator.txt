@@ -1,0 +1,91 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
+
+namespace Demo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string email = Console.ReadLine();
+
+            string command;
+
+            while ((command = Console.ReadLine()) != "Complete")
+            {
+                string[] element = command.Split();
+
+                if (element[0] == "Make")
+                {
+                    if (element[1] == "Upper")
+                    {
+                        email = email.ToUpper();
+                        Console.WriteLine(email);
+                    }
+                    else if (element[1] == "Lower")
+                    {
+                        email = email.ToLower();
+                        Console.WriteLine(email);
+                    }
+                }
+                else if (element[0] == "GetDomain")
+                {
+                    int count = int.Parse(element[1]);
+
+                    int index = email.Length - count;
+
+                    if (index >= 0 && index < email.Length)
+                    {
+                        string lastCount = email.Substring(index, count);
+                        Console.WriteLine(lastCount);
+                    }
+                }
+                else if (element[0] == "GetUsername")
+                {
+                    if (email.Contains("@"))
+                    {
+                        string substring = string.Empty;
+
+                        for (int i = 0; i < email.Length; i++)
+                        {
+                            if (email[i] != '@')
+                            {
+                                substring += email[i];
+                            }
+                            else
+                            {
+                                break;
+                            }
+                        }
+
+                        Console.WriteLine(substring);
+                    }
+                    else
+                    {
+                        Console.WriteLine($"The email {email} doesn't contain the @ symbol.");
+                    }
+                }
+                else if (element[0] == "Replace")
+                {
+                    char letter = char.Parse(element[1]);
+                    email = email.Replace(letter, '-');
+                    Console.WriteLine(email);
+                }
+                else if (element[0] == "Encrypt")
+                {
+                    int encrypt = 0;
+
+                    for (int i = 0; i < email.Length; i++)
+                    {
+                        encrypt = email[i];
+                        Console.Write(encrypt + " ");
+                    }
+                    Console.WriteLine();
+
+                }
+            }
+        }
+    }
+}

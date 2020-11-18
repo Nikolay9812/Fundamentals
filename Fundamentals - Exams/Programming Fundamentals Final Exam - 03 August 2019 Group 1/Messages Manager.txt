@@ -1,0 +1,77 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
+
+namespace Demo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int capacity = int.Parse(Console.ReadLine());
+
+            Dictionary<string, List<int>> records = new Dictionary<string, List<int>>();
+
+            string command;
+
+            while ((command = Console.ReadLine()) != "Statistics")
+            {
+                string[] element = command.Split("=");
+
+                if (element[0] == "Add")
+                {
+                    string username = element[1];
+                    int sent = int.Parse(element[2]);
+                    int received = int.Parse(element[3]);
+                    if (!records.ContainsKey(username))
+                    {
+                        records.Add(username, new List<int>() { sent, received });
+                    }
+                }
+                else if (element[0] == "Message")
+                {
+                    string sender = element[1];
+                    string reciver = element[2];
+
+                    if (records.ContainsKey(sender) && records.ContainsKey(reciver))
+                    {
+                        records[sender][0]++;
+                        records[reciver][1]++;
+
+                        if (records[sender].Sum().Equals(capacity))
+                        {
+                            Console.WriteLine($"{sender} reached the capacity!");
+                            records.Remove(sender);
+                        }
+                        if (records[reciver].Sum().Equals(capacity))
+                        {
+                            Console.WriteLine($"{reciver} reached the capacity!");
+                            records.Remove(reciver);
+                        }
+                    }
+                }
+                else if (element[0] == "Empty")
+                {
+                    string username = element[1];
+
+                    if (username == "All")
+                    {
+                        records.Clear();
+                    }
+                    if (records.ContainsKey(username))
+                    {
+                        records.Remove(username);
+                    }
+                }
+            }
+
+            Console.WriteLine($"Users count: {records.Count}");
+
+            foreach (var item in records.OrderByDescending(v => v.Value[1]).ThenBy(k => k.Key))
+            {
+                Console.WriteLine($"{item.Key} - {item.Value.Sum()}");
+            }
+        }
+    }
+}

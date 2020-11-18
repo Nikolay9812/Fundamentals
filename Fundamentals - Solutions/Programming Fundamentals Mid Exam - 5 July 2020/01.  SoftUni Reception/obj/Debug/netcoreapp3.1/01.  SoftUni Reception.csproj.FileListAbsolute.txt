@@ -1,0 +1,11 @@
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Programming Fundamentals Mid Exam - 5 July 2020\01.  SoftUni Reception\bin\Debug\netcoreapp3.1\01.  SoftUni Reception.exe
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Programming Fundamentals Mid Exam - 5 July 2020\01.  SoftUni Reception\bin\Debug\netcoreapp3.1\01.  SoftUni Reception.deps.json
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Programming Fundamentals Mid Exam - 5 July 2020\01.  SoftUni Reception\bin\Debug\netcoreapp3.1\01.  SoftUni Reception.runtimeconfig.json
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Programming Fundamentals Mid Exam - 5 July 2020\01.  SoftUni Reception\bin\Debug\netcoreapp3.1\01.  SoftUni Reception.runtimeconfig.dev.json
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Programming Fundamentals Mid Exam - 5 July 2020\01.  SoftUni Reception\bin\Debug\netcoreapp3.1\01.  SoftUni Reception.dll
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Programming Fundamentals Mid Exam - 5 July 2020\01.  SoftUni Reception\bin\Debug\netcoreapp3.1\01.  SoftUni Reception.pdb
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Programming Fundamentals Mid Exam - 5 July 2020\01.  SoftUni Reception\obj\Debug\netcoreapp3.1\01.  SoftUni Reception.csprojAssemblyReference.cache
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Programming Fundamentals Mid Exam - 5 July 2020\01.  SoftUni Reception\obj\Debug\netcoreapp3.1\01.  SoftUni Reception.AssemblyInfoInputs.cache
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Programming Fundamentals Mid Exam - 5 July 2020\01.  SoftUni Reception\obj\Debug\netcoreapp3.1\01.  SoftUni Reception.AssemblyInfo.cs
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Programming Fundamentals Mid Exam - 5 July 2020\01.  SoftUni Reception\obj\Debug\netcoreapp3.1\01.  SoftUni Reception.dll
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Programming Fundamentals Mid Exam - 5 July 2020\01.  SoftUni Reception\obj\Debug\netcoreapp3.1\01.  SoftUni Reception.pdb

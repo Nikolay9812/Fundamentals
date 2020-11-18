@@ -1,0 +1,97 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace Demo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            List<int> targetsInTheArcheryField = Console.ReadLine().Split("|").Select(int.Parse).ToList();
+
+            string command = string.Empty;
+
+            int points = 0;
+
+            while ((command = Console.ReadLine()) != "Game over")
+            {
+                if (command == "Reverse")
+                {
+                    targetsInTheArcheryField.Reverse();
+                    continue;
+                }
+
+                string[] temp = command.Split();
+                string[] element = temp[1].Split("@");
+
+                int index = int.Parse(element[1]);
+                int length = int.Parse(element[2]);
+
+                if (element[0] == "Left")
+                {
+                    if (index >= 0 && index <= targetsInTheArcheryField.Count - 1)
+                    {
+                        while (length != 0)
+                        {
+                            if (index > 0)
+                            {
+                                index--;
+                                length--;
+                            }
+                            else if (index == 0)
+                            {
+                                index = targetsInTheArcheryField.Count - 1;
+                                length--;
+                            }
+                        }
+
+                        if (targetsInTheArcheryField[index] >= 5)
+                        {
+                            targetsInTheArcheryField[index] -= 5;
+                            points += 5;
+                        }
+                        else
+                        {
+                            points += targetsInTheArcheryField[index];
+                            targetsInTheArcheryField[index] = 0;
+                        }
+                    }
+                }
+                else if (element[0] == "Right")
+                {
+                    if (index >= 0 && index <= targetsInTheArcheryField.Count - 1)
+                    {
+                        while (length != 0)
+                        {
+                            if (index < targetsInTheArcheryField.Count - 1)
+                            {
+                                index++;
+                                length--;
+                            }
+                            else if (index == targetsInTheArcheryField.Count - 1)
+                            {
+                                index = 0;
+                                length--;
+                            }
+                        }
+
+                        if (targetsInTheArcheryField[index] >= 5)
+                        {
+                            targetsInTheArcheryField[index] -= 5;
+                            points += 5;
+                        }
+                        else
+                        {
+                            points += targetsInTheArcheryField[index];
+                            targetsInTheArcheryField[index] = 0;
+                        }
+                    }
+                }
+            }
+
+            Console.WriteLine(string.Join(" - ", targetsInTheArcheryField));
+            Console.WriteLine($"Iskren finished the archery tournament with {points} points!");
+        }
+    }
+}

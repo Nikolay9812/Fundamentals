@@ -1,0 +1,11 @@
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Programming Fundamentals Final Exam Retake - 15 August 2020\ConsoleApp3\bin\Debug\netcoreapp3.1\ConsoleApp3.exe
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Programming Fundamentals Final Exam Retake - 15 August 2020\ConsoleApp3\bin\Debug\netcoreapp3.1\ConsoleApp3.deps.json
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Programming Fundamentals Final Exam Retake - 15 August 2020\ConsoleApp3\bin\Debug\netcoreapp3.1\ConsoleApp3.runtimeconfig.json
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Programming Fundamentals Final Exam Retake - 15 August 2020\ConsoleApp3\bin\Debug\netcoreapp3.1\ConsoleApp3.runtimeconfig.dev.json
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Programming Fundamentals Final Exam Retake - 15 August 2020\ConsoleApp3\bin\Debug\netcoreapp3.1\ConsoleApp3.dll
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Programming Fundamentals Final Exam Retake - 15 August 2020\ConsoleApp3\bin\Debug\netcoreapp3.1\ConsoleApp3.pdb
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Programming Fundamentals Final Exam Retake - 15 August 2020\ConsoleApp3\obj\Debug\netcoreapp3.1\ConsoleApp3.csprojAssemblyReference.cache
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Programming Fundamentals Final Exam Retake - 15 August 2020\ConsoleApp3\obj\Debug\netcoreapp3.1\ConsoleApp3.AssemblyInfoInputs.cache
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Programming Fundamentals Final Exam Retake - 15 August 2020\ConsoleApp3\obj\Debug\netcoreapp3.1\ConsoleApp3.AssemblyInfo.cs
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Programming Fundamentals Final Exam Retake - 15 August 2020\ConsoleApp3\obj\Debug\netcoreapp3.1\ConsoleApp3.dll
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Programming Fundamentals Final Exam Retake - 15 August 2020\ConsoleApp3\obj\Debug\netcoreapp3.1\ConsoleApp3.pdb

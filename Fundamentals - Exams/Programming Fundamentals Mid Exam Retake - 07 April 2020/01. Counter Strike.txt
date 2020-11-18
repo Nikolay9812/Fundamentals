@@ -1,0 +1,42 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
+
+namespace Demo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int initialEnergy = int.Parse(Console.ReadLine());
+
+            string command;
+
+            int count = 0;
+
+            while ((command = Console.ReadLine()) != "End of battle")
+            {
+                int distance = int.Parse(command);
+
+                if (initialEnergy < distance)
+                {
+                    Console.WriteLine($"Not enough energy! Game ends with {count} won battles and {initialEnergy} energy");
+                    return;
+                }
+                else
+                {
+                    initialEnergy -= distance;
+                    count++;
+
+                }
+                if (count % 3 == 0)
+                {
+                    initialEnergy += count;
+                }
+            }
+
+            Console.WriteLine($"Won battles: {count}. Energy left: {initialEnergy}");
+        }
+    }
+}

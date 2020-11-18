@@ -1,0 +1,107 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
+
+namespace Demo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int n = int.Parse(Console.ReadLine());
+
+            Dictionary<string, List<int>> dataBase = new Dictionary<string, List<int>>();
+
+            for (int i = 0; i < n; i++)
+            {
+                string[] carData = Console.ReadLine().Split("|").ToArray();
+
+                string car = carData[0];
+                int mileage = int.Parse(carData[1]);
+                int fuel = int.Parse(carData[2]);
+
+                if (!dataBase.ContainsKey(car))
+                {
+                    dataBase.Add(car, new List<int>());
+                    dataBase[car].Add(mileage);
+                    dataBase[car].Add(fuel);
+                }
+            }
+
+            string command;
+
+            while ((command = Console.ReadLine()) != "Stop")
+            {
+                string[] element = command.Split(" : ");
+
+                if (element[0] == "Drive")
+                {
+                    string car = element[1];
+                    int distance = int.Parse(element[2]);
+                    int fuel = int.Parse(element[3]);
+                    if (dataBase[car][1] >= fuel)
+                    {
+                        dataBase[car][0] += distance;
+                        dataBase[car][1] -= fuel;
+
+                        Console.WriteLine($"{car} driven for {distance} kilometers. {fuel} liters of fuel consumed.");
+
+                        if (dataBase[car][0] >= 100000)
+                        {
+                            Console.WriteLine($"Time to sell the {car}!");
+                            dataBase.Remove(car);
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("Not enough fuel to make that ride");
+                    }
+
+                }
+                else if (element[0] == "Refuel")
+                {
+                    string car = element[1];
+                    int fuel = int.Parse(element[2]);
+
+                    if (dataBase[car][1] > 0)
+                    {
+                        if (dataBase[car][1] + fuel > 75)
+                        {
+                            Console.WriteLine($"{car} refueled with {75 - dataBase[car][1]} liters");
+                            dataBase[car][1] = 75;
+                        }
+                        else
+                        {
+                            dataBase[car][1] += fuel;
+                            Console.WriteLine($"{car} refueled with {fuel} liters");
+                        }
+                    }
+                }
+                else if (element[0] == "Revert")
+                {
+                    string car = element[1];
+                    int kilometers = int.Parse(element[2]);
+
+                    if (dataBase[car][0] > 0)
+                    {
+                        dataBase[car][0] -= kilometers;
+
+                        if (dataBase[car][0] < 10000)
+                        {
+                            dataBase[car][0] = 10000;
+                        }
+                        else
+                        {
+                            Console.WriteLine($"{car} mileage decreased by {kilometers} kilometers");
+                        }
+                    }
+                }
+            }
+            foreach (var kvp in dataBase.OrderByDescending(x => x.Value[0]).ThenBy(x => x.Key))
+            {
+                Console.WriteLine($"{kvp.Key} -> Mileage: {kvp.Value[0]} kms, Fuel in the tank: {kvp.Value[1]} lt.");
+            }
+        }
+    }
+}

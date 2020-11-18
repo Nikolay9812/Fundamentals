@@ -1,0 +1,11 @@
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Regular Expressions - More Exercise\02. Rage Quit\obj\Debug\netcoreapp3.1\02. Rage Quit.csprojAssemblyReference.cache
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Regular Expressions - More Exercise\02. Rage Quit\obj\Debug\netcoreapp3.1\02. Rage Quit.AssemblyInfoInputs.cache
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Regular Expressions - More Exercise\02. Rage Quit\obj\Debug\netcoreapp3.1\02. Rage Quit.AssemblyInfo.cs
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Regular Expressions - More Exercise\02. Rage Quit\bin\Debug\netcoreapp3.1\02. Rage Quit.exe
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Regular Expressions - More Exercise\02. Rage Quit\bin\Debug\netcoreapp3.1\02. Rage Quit.deps.json
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Regular Expressions - More Exercise\02. Rage Quit\bin\Debug\netcoreapp3.1\02. Rage Quit.runtimeconfig.json
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Regular Expressions - More Exercise\02. Rage Quit\bin\Debug\netcoreapp3.1\02. Rage Quit.runtimeconfig.dev.json
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Regular Expressions - More Exercise\02. Rage Quit\bin\Debug\netcoreapp3.1\02. Rage Quit.dll
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Regular Expressions - More Exercise\02. Rage Quit\bin\Debug\netcoreapp3.1\02. Rage Quit.pdb
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Regular Expressions - More Exercise\02. Rage Quit\obj\Debug\netcoreapp3.1\02. Rage Quit.dll
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Regular Expressions - More Exercise\02. Rage Quit\obj\Debug\netcoreapp3.1\02. Rage Quit.pdb

@@ -1,0 +1,11 @@
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - Exercise\02. Sum Digits\bin\Debug\netcoreapp3.1\02. Sum Digits.exe
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - Exercise\02. Sum Digits\bin\Debug\netcoreapp3.1\02. Sum Digits.deps.json
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - Exercise\02. Sum Digits\bin\Debug\netcoreapp3.1\02. Sum Digits.runtimeconfig.json
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - Exercise\02. Sum Digits\bin\Debug\netcoreapp3.1\02. Sum Digits.runtimeconfig.dev.json
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - Exercise\02. Sum Digits\bin\Debug\netcoreapp3.1\02. Sum Digits.dll
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - Exercise\02. Sum Digits\bin\Debug\netcoreapp3.1\02. Sum Digits.pdb
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - Exercise\02. Sum Digits\obj\Debug\netcoreapp3.1\02. Sum Digits.csprojAssemblyReference.cache
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - Exercise\02. Sum Digits\obj\Debug\netcoreapp3.1\02. Sum Digits.AssemblyInfoInputs.cache
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - Exercise\02. Sum Digits\obj\Debug\netcoreapp3.1\02. Sum Digits.AssemblyInfo.cs
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - Exercise\02. Sum Digits\obj\Debug\netcoreapp3.1\02. Sum Digits.dll
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - Exercise\02. Sum Digits\obj\Debug\netcoreapp3.1\02. Sum Digits.pdb

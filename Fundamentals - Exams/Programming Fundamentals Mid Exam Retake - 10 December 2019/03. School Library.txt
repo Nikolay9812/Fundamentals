@@ -1,0 +1,82 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace Demo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            List<string> shelf = Console.ReadLine().Split('&').ToList();
+            string command = Console.ReadLine();
+
+            while (command != "Done")
+            {
+                string[] spllited = command.Split(" | ");
+                switch (spllited[0])
+                {
+                    case "Add Book":
+                        {
+                            string bookName = spllited[1];
+                            if (!shelf.Contains(bookName))
+                            {
+                                shelf.Insert(0, bookName);
+                            }
+
+                            break;
+                        }
+
+                    case "Take Book":
+                        {
+                            string bookName = spllited[1];
+                            if (shelf.Contains(bookName))
+                            {
+                                shelf.Remove(bookName);
+                            }
+
+                            break;
+                        }
+
+                    case "Swap Books":
+                        {
+                            string bookName = spllited[1];
+                            string secondBokk = spllited[2];
+                            if (shelf.Contains(bookName) && shelf.Contains(secondBokk))
+                            {
+                                int indexfirst = shelf.IndexOf(bookName);
+                                int indexSecond = shelf.IndexOf(secondBokk);
+                                string temp1 = shelf[indexfirst];
+                                string temp2 = shelf[indexSecond];
+                                shelf[indexfirst] = temp2;
+                                shelf[indexSecond] = temp1;
+
+                            }
+
+                            break;
+                        }
+
+                    case "Insert Book":
+                        {
+                            string bookName = spllited[1];
+                            shelf.Add(bookName);
+                            break;
+                        }
+
+                    case "Check Book":
+                        {
+                            int index = int.Parse(spllited[1]);
+                            if (index >= 0 && index <= shelf.Count)
+                            {
+                                Console.WriteLine($"{shelf[index]}");
+                            }
+
+                            break;
+                        }
+                }
+                command = Console.ReadLine();
+            }
+            Console.WriteLine(string.Join(", ", shelf));
+        }
+    }
+}

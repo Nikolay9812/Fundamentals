@@ -1,0 +1,11 @@
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - Exercise\07. Water Overflow\bin\Debug\netcoreapp3.1\07. Water Overflow.exe
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - Exercise\07. Water Overflow\bin\Debug\netcoreapp3.1\07. Water Overflow.deps.json
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - Exercise\07. Water Overflow\bin\Debug\netcoreapp3.1\07. Water Overflow.runtimeconfig.json
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - Exercise\07. Water Overflow\bin\Debug\netcoreapp3.1\07. Water Overflow.runtimeconfig.dev.json
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - Exercise\07. Water Overflow\bin\Debug\netcoreapp3.1\07. Water Overflow.dll
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - Exercise\07. Water Overflow\bin\Debug\netcoreapp3.1\07. Water Overflow.pdb
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - Exercise\07. Water Overflow\obj\Debug\netcoreapp3.1\07. Water Overflow.csprojAssemblyReference.cache
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - Exercise\07. Water Overflow\obj\Debug\netcoreapp3.1\07. Water Overflow.AssemblyInfoInputs.cache
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - Exercise\07. Water Overflow\obj\Debug\netcoreapp3.1\07. Water Overflow.AssemblyInfo.cs
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - Exercise\07. Water Overflow\obj\Debug\netcoreapp3.1\07. Water Overflow.dll
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - Exercise\07. Water Overflow\obj\Debug\netcoreapp3.1\07. Water Overflow.pdb

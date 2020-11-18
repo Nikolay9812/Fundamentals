@@ -1,0 +1,10 @@
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Methods - Lab\05. Orders\bin\Debug\netcoreapp3.1\05. Orders.exe
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Methods - Lab\05. Orders\bin\Debug\netcoreapp3.1\05. Orders.deps.json
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Methods - Lab\05. Orders\bin\Debug\netcoreapp3.1\05. Orders.runtimeconfig.json
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Methods - Lab\05. Orders\bin\Debug\netcoreapp3.1\05. Orders.runtimeconfig.dev.json
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Methods - Lab\05. Orders\bin\Debug\netcoreapp3.1\05. Orders.dll
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Methods - Lab\05. Orders\bin\Debug\netcoreapp3.1\05. Orders.pdb
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Methods - Lab\05. Orders\obj\Debug\netcoreapp3.1\05. Orders.AssemblyInfoInputs.cache
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Methods - Lab\05. Orders\obj\Debug\netcoreapp3.1\05. Orders.AssemblyInfo.cs
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Methods - Lab\05. Orders\obj\Debug\netcoreapp3.1\05. Orders.dll
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Methods - Lab\05. Orders\obj\Debug\netcoreapp3.1\05. Orders.pdb

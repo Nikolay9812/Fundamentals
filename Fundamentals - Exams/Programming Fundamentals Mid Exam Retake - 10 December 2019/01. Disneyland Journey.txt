@@ -1,0 +1,34 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace Demo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double journeyCost = double.Parse(Console.ReadLine());
+            int numberOfMounts = int.Parse(Console.ReadLine());
+
+            double money = 0;
+
+            for (int i = 1; i <= numberOfMounts; i++)
+            {
+                if (i == 1) { money += journeyCost * 0.25; continue; }
+                if (i % 2 != 0) { money -= money * 0.16; }
+                if (i % 4 == 0) { money += money * 0.25; }
+                money += journeyCost * 0.25;
+            }
+
+            if (money > journeyCost)
+            {
+                Console.WriteLine($"Bravo! You can go to Disneyland and you will have {money - journeyCost:f2}lv. for souvenirs.");
+            }
+            else
+            {
+                Console.WriteLine($"Sorry. You need {journeyCost - money:f2}lv. more.");
+            }
+        }
+    }
+}

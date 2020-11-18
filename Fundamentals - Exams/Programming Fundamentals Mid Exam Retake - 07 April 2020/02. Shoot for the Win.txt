@@ -1,0 +1,40 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace Demo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            List<int> targets = Console.ReadLine().Split().Select(int.Parse).ToList();
+
+            string command = string.Empty;
+
+            int count = 0;
+
+            while ((command = Console.ReadLine()) != "End")
+            {
+                int targetIndex = int.Parse(command);
+
+                if (targetIndex >= 0 && targetIndex < targets.Count)
+                {
+                    for (int index = 0; index < targets.Count; index++)
+                    {
+                        if (targets[index] != -1 && index != targetIndex)
+                        {
+                            if (targets[index] > targets[targetIndex]) { targets[index] -= targets[targetIndex]; }
+                            else { targets[index] += targets[targetIndex]; }
+                        }
+                    }
+                    targets[targetIndex] = -1;
+                    count++;
+                }
+
+            }
+
+            Console.WriteLine($"Shot targets: {count} -> {string.Join(" ", targets)}");
+        }
+    }
+}

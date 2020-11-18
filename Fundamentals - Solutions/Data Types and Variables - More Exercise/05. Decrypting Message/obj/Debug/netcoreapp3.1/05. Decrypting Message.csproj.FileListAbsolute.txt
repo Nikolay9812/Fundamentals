@@ -1,0 +1,11 @@
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - More Exercise\05. Decrypting Message\bin\Debug\netcoreapp3.1\05. Decrypting Message.exe
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - More Exercise\05. Decrypting Message\bin\Debug\netcoreapp3.1\05. Decrypting Message.deps.json
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - More Exercise\05. Decrypting Message\bin\Debug\netcoreapp3.1\05. Decrypting Message.runtimeconfig.json
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - More Exercise\05. Decrypting Message\bin\Debug\netcoreapp3.1\05. Decrypting Message.runtimeconfig.dev.json
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - More Exercise\05. Decrypting Message\bin\Debug\netcoreapp3.1\05. Decrypting Message.dll
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - More Exercise\05. Decrypting Message\bin\Debug\netcoreapp3.1\05. Decrypting Message.pdb
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - More Exercise\05. Decrypting Message\obj\Debug\netcoreapp3.1\05. Decrypting Message.csprojAssemblyReference.cache
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - More Exercise\05. Decrypting Message\obj\Debug\netcoreapp3.1\05. Decrypting Message.AssemblyInfoInputs.cache
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - More Exercise\05. Decrypting Message\obj\Debug\netcoreapp3.1\05. Decrypting Message.AssemblyInfo.cs
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - More Exercise\05. Decrypting Message\obj\Debug\netcoreapp3.1\05. Decrypting Message.dll
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Data Types and Variables - More Exercise\05. Decrypting Message\obj\Debug\netcoreapp3.1\05. Decrypting Message.pdb

@@ -1,0 +1,79 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Text.RegularExpressions;
+
+namespace Demo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string[] input = Console.ReadLine().Split("|").ToArray();
+
+            string command;
+
+            while ((command = Console.ReadLine()) != "Done")
+            {
+                string[] element = command.Split();
+
+                if (element[0] == "Move")
+                {
+                    int index = int.Parse(element[2]);
+
+                    if (element[1] == "Left")
+                    {
+                        if (index > 0 && index < input.Length)
+                        {
+                            string temp = input[index - 1];
+                            input[index - 1] = input[index];
+                            input[index] = temp;
+                        }
+                    }
+                    else if (element[1] == "Right")
+                    {
+                        if (index >= 0 && index < input.Length-1)
+                        {
+                            string temp = input[index + 1];
+                            input[index + 1] = input[index];
+                            input[index] = temp;
+                        }
+                    }
+                }
+                else if (element[0] == "Check")
+                {
+                    if (element[1] == "Even")
+                    {
+                        string even = string.Empty;
+
+                        for (int i = 0; i < input.Length; i++)
+                        {
+                            if (i % 2 == 0)
+                            {
+                                even += input[i] + " ";
+                            }
+                        }
+                        Console.WriteLine(even);
+                    }
+                    else if (element[1] == "Odd")
+                    {
+                        string odd = string.Empty;
+
+                        for (int i = 0; i < input.Length; i++)
+                        {
+                            if (i % 2 != 0)
+                            {
+                                odd += input[i] + " ";
+                            }
+                        }
+
+                        Console.WriteLine(odd);
+                    }
+                }
+            }
+
+            Console.WriteLine($"You crafted {string.Join("", input)}!");
+        }
+    }
+}

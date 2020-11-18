@@ -1,0 +1,11 @@
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Programming Fundamentals Final Exam - 09 August 2020\ConsoleApp3\bin\Debug\netcoreapp3.1\03. Plant Discovery.exe
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Programming Fundamentals Final Exam - 09 August 2020\ConsoleApp3\bin\Debug\netcoreapp3.1\03. Plant Discovery.deps.json
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Programming Fundamentals Final Exam - 09 August 2020\ConsoleApp3\bin\Debug\netcoreapp3.1\03. Plant Discovery.runtimeconfig.json
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Programming Fundamentals Final Exam - 09 August 2020\ConsoleApp3\bin\Debug\netcoreapp3.1\03. Plant Discovery.runtimeconfig.dev.json
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Programming Fundamentals Final Exam - 09 August 2020\ConsoleApp3\bin\Debug\netcoreapp3.1\03. Plant Discovery.dll
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Programming Fundamentals Final Exam - 09 August 2020\ConsoleApp3\bin\Debug\netcoreapp3.1\03. Plant Discovery.pdb
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Programming Fundamentals Final Exam - 09 August 2020\ConsoleApp3\obj\Debug\netcoreapp3.1\03. Plant Discovery.csprojAssemblyReference.cache
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Programming Fundamentals Final Exam - 09 August 2020\ConsoleApp3\obj\Debug\netcoreapp3.1\03. Plant Discovery.AssemblyInfoInputs.cache
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Programming Fundamentals Final Exam - 09 August 2020\ConsoleApp3\obj\Debug\netcoreapp3.1\03. Plant Discovery.AssemblyInfo.cs
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Programming Fundamentals Final Exam - 09 August 2020\ConsoleApp3\obj\Debug\netcoreapp3.1\03. Plant Discovery.dll
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Programming Fundamentals Final Exam - 09 August 2020\ConsoleApp3\obj\Debug\netcoreapp3.1\03. Plant Discovery.pdb

@@ -1,0 +1,80 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
+
+namespace Demo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string input = Console.ReadLine();
+
+            string command;
+
+            while ((command = Console.ReadLine()) != "Done")
+            {
+                string[] element = command.Split();
+
+                if (element[0] == "Change")
+                {
+                    char letter = char.Parse(element[1]);
+                    char replacement = char.Parse(element[2]);
+
+                    input = input.Replace(letter, replacement);
+
+                    Console.WriteLine(input);
+                }
+                else if (element[0] == "Includes")
+                {
+                    string word = element[1];
+
+                    if (input.Contains(word))
+                    {
+                        Console.WriteLine("True");
+                    }
+                    else
+                    {
+                        Console.WriteLine("False");
+                    }
+                }
+                else if (element[0] == "End")
+                {
+                    string word = element[1];
+
+                    if (input.EndsWith(word))
+                    {
+                        Console.WriteLine("True");
+                    }
+                    else
+                    {
+                        Console.WriteLine("False");
+                    }
+
+                }
+                else if (element[0] == "Uppercase")
+                {
+                    input = input.ToUpper();
+
+                    Console.WriteLine(input);
+                }
+                else if (element[0] == "FindIndex")
+                {
+                    char letter = char.Parse(element[1]);
+
+                    Console.WriteLine(input.IndexOf(letter));
+                }
+                else if (element[0] == "Cut")
+                {
+                    int startIndex = int.Parse(element[1]);
+                    int length = int.Parse(element[1]);
+
+                    input = input.Substring(startIndex, startIndex + length);
+
+                    Console.WriteLine(input);
+                }
+            }
+        }
+    }
+}

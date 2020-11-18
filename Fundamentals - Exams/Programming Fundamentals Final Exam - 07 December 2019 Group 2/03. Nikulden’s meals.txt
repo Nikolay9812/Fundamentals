@@ -1,0 +1,68 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Text.RegularExpressions;
+
+namespace Demo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string command;
+
+            Dictionary<string, List<string>> guestInfo = new Dictionary<string, List<string>>();
+
+            int unlikes = 0;
+
+            while ((command = Console.ReadLine()) != "Stop")
+            {
+                string[] element = command.Split("-");
+
+                if (element[0] == "Like")
+                {
+                    string guest = element[1];
+                    string meal = element[2];
+                    if (!guestInfo.ContainsKey(guest))
+                    {
+                        guestInfo.Add(guest, new List<string>() { meal });
+                    }
+                    else if (!guestInfo[guest].Contains(meal))
+                    {
+                        guestInfo[guest].Add(meal);
+                    }
+                }
+                else if (element[0] == "Unlike")
+                {
+                    string guest = element[1];
+                    string meal = element[2];
+
+                    if (!guestInfo.ContainsKey(guest))
+                    {
+                        Console.WriteLine($"{guest} is not at the party.");
+                    }
+                    else if (!guestInfo[guest].Contains(meal))
+                    {
+                        Console.WriteLine($"{guest} doesn't have the {meal} in his/her collection.");
+                    }
+                    else
+                    {
+                        guestInfo[guest].Remove(meal);
+                        Console.WriteLine($"{guest} doesn't like the {meal}.");
+                        unlikes++;
+                    }
+
+
+                }
+            }
+
+            foreach (var kvp in guestInfo.OrderByDescending(v => v.Value.Count).ThenBy(k => k.Key))
+            {
+                Console.WriteLine($"{kvp.Key}: {string.Join(", ", kvp.Value)}");
+            }
+
+            Console.WriteLine($"Unliked meals: {unlikes}");
+        }
+    }
+}

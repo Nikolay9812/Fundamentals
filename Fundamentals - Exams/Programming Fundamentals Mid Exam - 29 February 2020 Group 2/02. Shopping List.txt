@@ -1,0 +1,58 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace Demo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            List<string> list = Console.ReadLine().Split("!").ToList();
+
+            string command = string.Empty;
+
+            while ((command = Console.ReadLine()) != "Go Shopping!")
+            {
+                string[] element = command.Split();
+
+                switch (element[0])
+                {
+                    case "Urgent":
+                        string urgentItem = element[1];
+                        if (!list.Contains(urgentItem))
+                        {
+                            list.Insert(0, urgentItem);
+                        }
+                        break;
+                    case "Unnecessary":
+                        string unnecessaryItem = element[1];
+                        if (list.Contains(unnecessaryItem))
+                        {
+                            list.Remove(unnecessaryItem);
+                        }
+                        break;
+                    case "Correct":
+                        string oldItem = element[1];
+                        string newItem = element[2];
+                        if (list.Contains(oldItem))
+                        {
+                            list[list.FindIndex(ind => ind.Equals(oldItem))] = newItem;
+                        }
+                        break;
+                    case "Rearrange":
+                        string rearrangeItem = element[1];
+                        if (list.Contains(rearrangeItem))
+                        {
+                            int index = list.IndexOf(rearrangeItem);
+                            list.Remove(rearrangeItem);
+                            list.Add(rearrangeItem);
+                        }
+                        break;
+                }
+            }
+
+            Console.WriteLine(string.Join(", ", list));
+        }
+    }
+}

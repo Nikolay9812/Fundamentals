@@ -1,0 +1,11 @@
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Associative Arrays - Exercise\06. Courses\bin\Debug\netcoreapp3.1\06. Courses.exe
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Associative Arrays - Exercise\06. Courses\bin\Debug\netcoreapp3.1\06. Courses.deps.json
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Associative Arrays - Exercise\06. Courses\bin\Debug\netcoreapp3.1\06. Courses.runtimeconfig.json
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Associative Arrays - Exercise\06. Courses\bin\Debug\netcoreapp3.1\06. Courses.runtimeconfig.dev.json
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Associative Arrays - Exercise\06. Courses\bin\Debug\netcoreapp3.1\06. Courses.dll
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Associative Arrays - Exercise\06. Courses\bin\Debug\netcoreapp3.1\06. Courses.pdb
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Associative Arrays - Exercise\06. Courses\obj\Debug\netcoreapp3.1\06. Courses.csprojAssemblyReference.cache
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Associative Arrays - Exercise\06. Courses\obj\Debug\netcoreapp3.1\06. Courses.AssemblyInfoInputs.cache
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Associative Arrays - Exercise\06. Courses\obj\Debug\netcoreapp3.1\06. Courses.AssemblyInfo.cs
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Associative Arrays - Exercise\06. Courses\obj\Debug\netcoreapp3.1\06. Courses.dll
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Associative Arrays - Exercise\06. Courses\obj\Debug\netcoreapp3.1\06. Courses.pdb

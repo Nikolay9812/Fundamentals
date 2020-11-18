@@ -1,0 +1,46 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
+
+namespace Demo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string input = Console.ReadLine();
+
+            Regex pattern = new Regex(@"(::|\*\*)([A-Z]{1}[a-z]{2,})(\1)");
+            Regex patternDigits = new Regex(@"\d");
+
+            MatchCollection match = pattern.Matches(input);
+            MatchCollection matchDigits = patternDigits.Matches(input);
+
+
+            int coolThresholdSum = 1;
+
+            foreach (Match item in matchDigits)
+            {
+                int digit = int.Parse(item.Value);
+                coolThresholdSum *= digit;
+            }
+
+            Console.WriteLine($"Cool threshold: {coolThresholdSum}");
+            Console.WriteLine($"{match.Count} emojis found in the text. The cool ones are:");
+
+            foreach (Match item in match)
+            {
+                int sum = 0;
+                foreach (char letter in item.Groups[2].Value)
+                {
+                    sum += letter;
+                }
+                if (sum > coolThresholdSum)
+                {
+                    Console.WriteLine(item.Value);
+                }
+            }
+        }
+    }
+}

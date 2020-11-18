@@ -1,0 +1,70 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
+
+namespace Demo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Dictionary<string, List<string>> data = new Dictionary<string, List<string>>();
+
+            string command;
+
+            while ((command = Console.ReadLine()) != "Statistics")
+            {
+                string[] element = command.Split("->");
+
+                if (element[0] == "Add")
+                {
+                    string username = element[1];
+
+                    if (!data.ContainsKey(username))
+                    {
+                        data.Add(username, new List<string>());
+                    }
+                    else
+                    {
+                        Console.WriteLine($"{username} is already registered");
+                    }
+                }
+                else if (element[0] == "Send")
+                {
+                    string username = element[1];
+                    string email = element[2];
+
+                    data[username].Add(email);
+
+                }
+                else if (element[0] == "Delete")
+                {
+                    string username = element[1];
+
+                    if (data.ContainsKey(username))
+                    {
+                        data.Remove(username);
+                    }
+                    else
+                    {
+                        Console.WriteLine($"{username} not found!");
+                    }
+                }
+            }
+
+            Console.WriteLine($"Users count: {data.Count}");
+
+            foreach (var item in data.OrderByDescending(v => v.Value.Count).ThenBy(k => k.Key))
+            {
+                Console.WriteLine(item.Key);
+
+                foreach (var value in item.Value)
+                {
+                    Console.WriteLine(" - " + value);
+                }
+
+            }
+        }
+    }
+}

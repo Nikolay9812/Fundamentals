@@ -1,0 +1,11 @@
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Basic Syntax, Conditional Statements and Loops - Lab\07. Theatre Promotion\bin\Debug\netcoreapp3.1\07. Theatre Promotion.exe
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Basic Syntax, Conditional Statements and Loops - Lab\07. Theatre Promotion\bin\Debug\netcoreapp3.1\07. Theatre Promotion.deps.json
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Basic Syntax, Conditional Statements and Loops - Lab\07. Theatre Promotion\bin\Debug\netcoreapp3.1\07. Theatre Promotion.runtimeconfig.json
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Basic Syntax, Conditional Statements and Loops - Lab\07. Theatre Promotion\bin\Debug\netcoreapp3.1\07. Theatre Promotion.runtimeconfig.dev.json
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Basic Syntax, Conditional Statements and Loops - Lab\07. Theatre Promotion\bin\Debug\netcoreapp3.1\07. Theatre Promotion.dll
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Basic Syntax, Conditional Statements and Loops - Lab\07. Theatre Promotion\bin\Debug\netcoreapp3.1\07. Theatre Promotion.pdb
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Basic Syntax, Conditional Statements and Loops - Lab\07. Theatre Promotion\obj\Debug\netcoreapp3.1\07. Theatre Promotion.csprojAssemblyReference.cache
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Basic Syntax, Conditional Statements and Loops - Lab\07. Theatre Promotion\obj\Debug\netcoreapp3.1\07. Theatre Promotion.AssemblyInfoInputs.cache
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Basic Syntax, Conditional Statements and Loops - Lab\07. Theatre Promotion\obj\Debug\netcoreapp3.1\07. Theatre Promotion.AssemblyInfo.cs
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Basic Syntax, Conditional Statements and Loops - Lab\07. Theatre Promotion\obj\Debug\netcoreapp3.1\07. Theatre Promotion.dll
+C:\Users\GL72M 7RDX-1043CZ\source\repos\Basic Syntax, Conditional Statements and Loops - Lab\07. Theatre Promotion\obj\Debug\netcoreapp3.1\07. Theatre Promotion.pdb

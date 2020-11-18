@@ -1,0 +1,99 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Text.RegularExpressions;
+
+namespace Demo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string input = Console.ReadLine();
+
+            string command;
+
+            while ((command = Console.ReadLine()) != "Finish")
+            {
+                string[] element = command.Split();
+
+                if (element[0] == "Replace")
+                {
+                    char currentChar = char.Parse(element[1]);
+                    char newChar = char.Parse(element[2]);
+
+                    input = input.Replace(currentChar, newChar);
+
+                    Console.WriteLine(input);
+                }
+                else if (element[0] == "Cut")
+                {
+                    int startIndex = int.Parse(element[1]);
+                    int endIndex = int.Parse(element[2]);
+
+                    if (startIndex >= 0 && endIndex >= 0 && endIndex < input.Length)
+                    {
+                        input = input.Remove(startIndex, endIndex - startIndex + 1);
+                        Console.WriteLine(input);
+                    }
+                    else
+                    {
+                        Console.WriteLine("Invalid indexes!");
+                    }
+
+                }
+                else if (element[0] == "Make")
+                {
+                    if (element[1] == "Upper")
+                    {
+                        input = input.ToUpper();
+                        Console.WriteLine(input);
+                    }
+                    else if (element[1] == "Lower")
+                    {
+                        input = input.ToLower();
+                        Console.WriteLine(input);
+                    }
+                }
+                else if (element[0] == "Check")
+                {
+                    string word = element[1];
+
+                    if (input.Contains(word))
+                    {
+                        Console.WriteLine($"Message contains {word}");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Message doesn't contain {word}");
+                    }
+                }
+                else if (element[0] == "Sum")
+                {
+                    int startIndex = int.Parse(element[1]);
+                    int endIndex = int.Parse(element[2]);
+
+                    if (startIndex >= 0 && endIndex >= 0 && endIndex < input.Length)
+                    {
+                        string word = input.Substring(startIndex, endIndex);
+
+                        char[] temp = word.ToCharArray();
+                        int sum = 0;
+
+                        for (int i = 0; i < temp.Length; i++)
+                        {
+                            sum += temp[i];
+                        }
+
+                        Console.WriteLine(sum);
+                    }
+                    else
+                    {
+                        Console.WriteLine("Invalid indexes!");
+                    }
+                }
+            }
+        }
+    }
+}
